@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+  <meta name="description" content="Jeweled Accessories">
+  <meta name="keywords" content="sign in,sign up,create account">
+  <meta name="author" content="Joud Al-sabbagh">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel='stylesheet' type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <title>Cart Page</title>
+  <link rel='icon' type='images/png' href="../images/logo.png">
+</head>
+<body>
+	<header>
+		<div class='logo'><a href='home.html'> <img src="../images/logo.png" width="7%"></a></div>
+		<div class='websitename'>jeweled accessories</div>
+	</header>
+
+<section id='cart-page'>
+  
+ <div class="row-cart">
+  <div class="col-75-cart">
+    <div class="container-cart">
+      <form action="/action_page.php">  
+        <div class="row-cart">
+          <div class="col-50-cart">
+            <h3>Billing Address</h3><br>
+            <label for="fname" ><i class="fa fa-user" class='label-cart' ></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="YOUR FULL NAME"required >
+            <label for="email"><i class="fa fa-envelope" class='label-cart'></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="YOUR EMAIL">
+            <label for="adr"><i class="fa fa-address-card-o"class='label-cart' ></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street" required>
+            <label for="city"><i class="fa fa-institution" class='label-cart'></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York" required>
+
+            <div class="row-cart">
+              <div class="col-50-cart">
+                <label for="state" class='label-cart'>State</label>
+                <input type="text" id="state" name="state" placeholder="NY" required>
+              </div>
+              <div class="col-50-cart">
+                <label for="zip" class='label-cart'>Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label class='label-cart'>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div class="col-25-cart">
+   
+    <div class="container-cart">
+      <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4><br>
+      <p><a href="#" class='products-in-the-cart'>Ring 1</a> <span class="price">25 JD</span></p>
+      <p><a href="#" class='products-in-the-cart'>Earing 2</a> <span class="price">23 JD</span></p>
+      <p><a href="#" class='products-in-the-cart'>Necklace 3</a> <span class="price">22 JD</span></p>
+      <p><a href="#" class='products-in-the-cart'>Bracelets 4</a> <span class="price">20JD</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>80 JD</b></span></p>
+    </div>
+  </div>
+</div>
+</section>
+ <footer>
+      <div id='partone' class='footer'>
+        Contact Us:<br><br>
+        phone:20120031<br>
+        <a href="mailto:20120031@htu.edu.jo" target="_slang">20120031@htu.edu.jo</a>
+      </div>
+      
+      <div id='parttwo' class='footer'>
+      <div>Jeweled Accessories</div>
+      <span id='copy'>&copy Jeweled Accessories 2022</span>
+        </div>
+    <div id='partthree' class='footer'>
+       <a href="#" class="fa fa-instagram"> </a>
+       <a href="#" class="fa fa-facebook"> </a> 
+       <a href="#" class="fa fa-snapchat-ghost"> </a>
+       </div> 
+     </footer> 
+
+
+
+
+
+</body>
+</html>
